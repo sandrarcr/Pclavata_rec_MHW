@@ -4,6 +4,15 @@
 #   Ramirez-Calero, S. et al. 2024. Recurrent extreme climatic events are driving gorgonian populations 
 #   to local extinction: low adaptation and low adaptability to marine heat waves.
 #
+# This script includes:
+# Data curation and cleaning 
+# Basic stats (Allelic richness, Ho, He, Hst
+# HWE
+# LD (pairwise)
+# Inbreeding coefficients: Fst, Fis
+# PCA 
+# DAPC
+# AMOVA
 #########################################################################################################
 
 #setwd

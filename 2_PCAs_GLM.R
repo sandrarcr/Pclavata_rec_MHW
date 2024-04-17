@@ -11,7 +11,7 @@
 #########################################################################################################
 
 #load data
-dat<-read.csv2("datos_pclavata.csv",stringsAsFactors=T)
+dat<-read.csv2("data_pclavata.csv",stringsAsFactors=T)
 head(dat)
 names(dat)[1]<-"Colony_ID"
 names(dat)[7]<-"Necrosis"

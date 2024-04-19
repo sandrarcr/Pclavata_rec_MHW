@@ -8,7 +8,6 @@
 #
 #This script contains information on the estimation of genotype-by-environment sensitivity of
 #P. clavata individuals. This script needs to be run after 2_PCAs_GLM.R
-#
 #########################################################################################################
 
 #setwd

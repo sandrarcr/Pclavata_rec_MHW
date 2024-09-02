@@ -26,17 +26,18 @@ str(d)
 pop_colors <- c("POTA" = "#a6cee3", "VACA" = "#b15928", "TASCONS" = "#510066")
 
 d %>%
-  ggplot(aes(x = year_1, y = rep, group = ind, col = Pop)) +
+  ggplot(aes(x = Pop, y = response, group = ind, col = ind)) +
   geom_point(size = 2) +
   geom_smooth(method = "lm", fill = NA, size = 0.71) +
-  ylim(c(-2.5, 5)) +
-  scale_color_manual(values = pop_colors) +  
-  labs(x = "Environmental value (mean PCA scores)", y = "Individual phenotypic response (nec-int)") +
+  ylim(c(-4.5, 9)) +
+  xlim(c(-2.5, 5))+
+  labs(x = "Environmental value (mean PCA scores)", y = "Individual phenotypic response") +
   theme_minimal() +  
   theme(axis.text = element_text(size = 12),
         legend.position = "none",  # Remove the legend
         panel.background = element_rect(fill = "white"),
         axis.title.x = element_text(size = 14),  
         axis.title.y = element_text(size = 14))
+ scale_color_manual(values = pop_colors)
 
 ################# End of the code.

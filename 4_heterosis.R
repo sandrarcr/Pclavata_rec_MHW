@@ -21,8 +21,7 @@ library("fitdistrplus")
 library("ggplot2")
 
 #set working directory
-setwd(dir = "C:/Users/Joaquim Garrabou/OneDrive - Universitat de Barcelona/Doctorado/ICM/Tesis/Chap1/paper/Microsats_Jean-ba/Analisis_microsatelites") 
-setwd(dir = "C:/Users/Sandra/OneDrive - Universitat de Barcelona/Doctorado/ICM/Tesis/Chap1/paper/Microsats_Jean-ba/Analisis_microsatelites")
+setwd(~)
 
 #load data
 #data matched between individuals that have microsatellites and intercepts

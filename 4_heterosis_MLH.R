@@ -20,7 +20,7 @@ setwd(dir = "~")
 
 #data
 pcla_data <- (read.csv(file = "P.clavata_microsats.csv", row.names = "Ind"))
-ind_nec_year <- (read.csv(file = "nec.csv", row.names = "Ind")) #average necrosis at the end of the experiment per individual
+ind_nec_year <- (read.csv(file = "Avnec_het.csv", row.names = "Ind")) #average necrosis at the end of the experiment per individual
 
 #define vectors to be used as traits:
 nec_2015 <- ind_nec_year$Nec_2015

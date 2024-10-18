@@ -5,7 +5,7 @@
 #   to local extinction: low adaptation and low adaptability to marine heat waves.
 #
 #This script contains information of how heterosis was explored in the data
-#This script needs to be run after 2_PCAs_GLM.R and 3_microsat_analysis
+#This script needs to be run after 2_PCAs_GLM.R and 3_microsat_analysis.R 4_heterosis.R
 #Cleaned data is provided in the repository. cleaning process was conducted to match individuals that
 #had a microsatellite present and that obtained an intercept after making sure necrosis data was present for the three years only
 #individuals with data for two years only were removed.

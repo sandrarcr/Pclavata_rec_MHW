@@ -8,7 +8,7 @@
 #This script needs to be run after 2_PCAs_GLM.R and 2_microsat_analysis
 #Cleaned data is provided in the repository. cleaning process was conducted to match individuals that
 #had a microsatellite present and that obtained an intercept after making sure necrosis data was present for the three years only
-#individuales with data for two years only was removed.
+#individuals with data for two years only were removed.
 #
 #########################################################################################################
 

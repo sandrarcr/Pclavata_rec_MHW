@@ -4,6 +4,8 @@
 #   Ramirez-Calero, S. et al. 2024. Recurrent extreme climatic events are driving gorgonian populations 
 #   to local extinction: low adaptation and low adaptability to marine heat waves.
 #
+# Script written by: Jean-Baptiste Ledoux & Aldo Barreiro
+#
 #This script contains information of how heterosis was explored in the data
 #This script needs to be run after 2_PCAs_GLM.R and 3_microsat_analysis.R 4_heterosis.R
 #Cleaned data is provided in the repository. cleaning process was conducted to match individuals that

@@ -18,7 +18,7 @@ library(dplyr)
 library(ggplot2)
 
 #load data
-d <- read.table("dataset_3years") #can be found on repository
+d <- read.table("Pcla_interc_het") #can be found on repository
 str(d)
 
 #plot
@@ -26,7 +26,7 @@ str(d)
 pop_colors <- c("POTA" = "#a6cee3", "VACA" = "#b15928", "TASCONS" = "#510066")
 
 d %>%
-  ggplot(aes(x = Pop, y = response, group = ind, col = ind)) +
+  ggplot(aes(x = Pop, y = PCScores, group = Ind, col = Ind)) +
   geom_point(size = 2) +
   geom_smooth(method = "lm", fill = NA, size = 0.71) +
   ylim(c(-4.5, 9)) +

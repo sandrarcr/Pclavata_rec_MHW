@@ -52,8 +52,9 @@
 
 ### Datasets ###
 
--Avnec_het.csv 
-	Average necrosis for heterosis calculation: Ind	(Individual IDs) Nec_2015 Nec_2016 Nec_2017 (Necrosis values in %)
+-Avnec_het.csv:	Average necrosis for heterosis calculation: Ind	(Individual IDs) Nec_2015 Nec_2016 Nec_2017 (Necrosis values in %)
+
+-database_temperature_Medes_2015-17.txt: Dataset with in situ temperature information from Medes islands. First row contains Date, Time and associated depths 5, 10, 15, 20, 25, 30, 35 and 40m. This dataset was used with scripts surface_temperature.py, data_manager.py, user_interaction.py and excel_writer.py available at Zenodo repository https://doi.org/10.5281/zenodo.14007189.
 	
 -Intercepts_ind.csv: Individual intercepts LM data Individual (Individual IDs)	intercepts (proxy for individual fitness PCA)
 	
@@ -72,4 +73,3 @@
 -data_sensitivity_analysis.csv: dataset for sensitivity analysis. First row contains the PCScores,	Ind (Individual IDs), Pop, Year, Mean PCAScores (per year) Condition
 	
 -necrosis_cor.csv: dataset with necrosis raw data for individuals with complete information on necrosis estimations every year. This dataset is used as a cleaned version of Raw_data_nec_pclavata.csv and data_pclavata.csv in the scripts.
-
